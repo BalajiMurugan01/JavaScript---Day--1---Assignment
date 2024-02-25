@@ -1,0 +1,40 @@
+HTTP/1.1: The Foundation
+
+HTTP/1.1, the predecessor of HTTP/2, has been the workhorse of the Web since its launch in 1999. While it has served well, the digital landscape has evolved, exposing some limitations
+
+Limitations of integration:
+HTTP/1.1 relies on multiple interfaces to load a variety of objects such as images, style sheets, and scripts. Each connection comes with its own overhead, causing latency problems.
+
+Line head prevention:
+This version of HTTP suffers from head-of-line blocking, where a slower delivering resource can prevent subsequent content from being retrieved, resulting in slower page load times
+
+Unnecessary header data:
+For each request, a large amount of header data is sent with redundant information, which can contribute to increased latency and bandwidth usage
+
+HTTP/2: Quantum leap forward
+
+HTTP/2 was introduced in 2015 to address the shortcomings of HTTP/1.1, ushering in a paradigm shift in web communications. Let’s explore some key developments:
+
+Multiple inputs:
+One of the most important improvements in HTTP/2 is multiplexing. Unlike HTTP/1.1, which opens multiple connections for parallel downloads, HTTP/2 can send multiple requests and responses in parallel over a single connection. This reduces latency and improves resource utilization.
+
+Bike Policy:
+HTTP/2 uses a binary protocol instead of the plaintext used by HTTP/1.1. This enables efficient parsing and reduces the amount of data transmitted, contributing to faster communication between clients and servers.
+
+Entry title:
+HTTP/2 introduces header compression, reduces unnecessary header information and allows for smaller and more efficient data transfers. This not only saves bandwidth, but also speed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+JavaScript engines, such as V8 in Chrome or SpiderMonkey in Firefox, use different methods to represent objects internally. One common approach is to use a combination of maps and stored classes. Here is a brief description of how it works:
+
+Private classes:
+
+When an object is created, the JavaScript engine assigns it a private class. This class describes the structure of an object and the relationships between its properties.
+Map of the map:
+
+Each stored class is associated with a map, which is basically a set of key-value pairs for the attributes of the object. These maps allow for the efficient storage and retrieval of property values.
+Changes made:
+
+As the code executes, the engine can customize object representations by creating new classes and stored maps. This process, known as "shape shifting," increases productivity by reducing the time it takes to acquire and exchange assets.
+Examples and series:
+
+JavaScript uses an instance-based inheritance model, where objects can inherit properties and methods from other objects. Each object contains a link within its model, providing a chain that can be interrupted to identify objects that are not directly present in the object.
